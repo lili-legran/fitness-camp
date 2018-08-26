@@ -165,7 +165,7 @@ main {
 
 .advantages {
     margin: 0 auto;
-    padding: 150px 0;
+    padding-top: 150px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -207,6 +207,7 @@ h1 {
 .advantage p {
     font-style: normal;
     letter-spacing: 0.5px;
+    margin-bottom: 0;
 }
 
 .advantage img {
@@ -227,7 +228,8 @@ h1 {
 
 .workout {
     width: 100%;
-    margin: 150px 0;
+    padding-top: 150px;
+    margin: 0 auto;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -334,7 +336,8 @@ h1 {
 
 .recommendation {
     width: 100%;
-    margin: 150px 0;
+    margin: 0 auto;
+    padding-top: 150px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -381,13 +384,15 @@ h1 {
 .img-block{
     width: 33%;
     height: auto;
+    position: relative;
 } 
 
 .img-block img {
     border-radius: 50%; 
     width: 75%;  
     height: 75%;
-}
+    z-index: 3;
+} 
 
 .empty {
     width: 33%;
@@ -407,7 +412,6 @@ h1 {
 
 
 .btn-gal {
-    margin-top: 30px;
     background: #f7f716;
     opacity: 0.8;
     width: 163px;
@@ -444,7 +448,8 @@ h1 {
 
 .team {
     width: 100%;
-    margin: 150px 0;
+    margin: 0 auto;
+    padding-top: 150px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -591,7 +596,8 @@ h1 {
 
 .contact {
     width: 100%;
-    margin-top: 150px;
+    margin: 0 auto;
+    padding-top: 150px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -1102,7 +1108,9 @@ header .menu.responsive {
 
 
 
-
+    .advantages {
+        padding-top: 100px;
+    }
 
     .advantage img {
         width: 100px;
@@ -1121,7 +1129,10 @@ header .menu.responsive {
     
     
     
-    
+    .workout {
+        padding-top: 100px;
+    }
+
     .gallery-wrapper {
         width: 30%;
     }
@@ -1162,6 +1173,11 @@ header .menu.responsive {
     }
     .recommendation {
         width: 100%;
+        padding-top: 100px;
+    }
+
+    .recommendation p:last-child {
+        margin-bottom: 70px;
     }
     
     .rec-block-left p {
@@ -1223,7 +1239,10 @@ header .menu.responsive {
     
     
     
-    
+    .team {
+        padding-top: 100px;
+    }
+
     .team-wrapper {
         display: flex;
         flex-direction: column;
@@ -1256,7 +1275,9 @@ header .menu.responsive {
 
 
 
-
+    .contact {
+        padding-top: 100px;
+    }
 
     .contact-wrapper {
         width: 90%;
