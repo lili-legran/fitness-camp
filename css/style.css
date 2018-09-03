@@ -26,8 +26,6 @@ header {
 
 .header-logo {
     font-family: 'Kaushan Script', cursive;
-    /* margin-right: auto;
-    margin-left: auto; */
     font-size: 28px;
     align-items: center;
     color: #f7f716;
@@ -79,7 +77,6 @@ a:hover {
     height: 70px;
     border: none;
     background: #c7c05b;
-    /* padding: 30px 40px; */
     color: #000;
     font-weight: 800;
     font-size: 20px;
@@ -101,62 +98,17 @@ a:hover {
     bottom: 0;
     background: black;
     opacity: 0.5; 
-    z-index: 0;
-    
-
+    z-index: 0; 
 }
+
 .front {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1; 
-    
+    z-index: 1;  
 }
-
-
-/* .front .open {
-    height: 340px;
-}
-
-.open {
-    width: 100%;
-    height: auto;
-    background: green;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.menu .open .icon-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.menu .open a {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    top: 0;left: 0;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 main {
     width: 100%;
@@ -191,14 +143,12 @@ h1 {
 
 .advantage {
     width: 250px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .advantage:not(:last-child) {
     margin-right: 150px;
 }
-
 
 .advantages h2 {
     margin-bottom: 25px;
@@ -214,17 +164,6 @@ h1 {
     margin-bottom: 30px;
     width: 170px;
 }
-
-/* .icon-mean-2 img {
-    width: 62%;
-} */
-
-
-
-
-
-
-
 
 .workout {
     width: 100%;
@@ -325,15 +264,6 @@ h1 {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
 .recommendation {
     width: 100%;
     margin: 0 auto;
@@ -410,7 +340,6 @@ h1 {
     justify-content: space-between;
 }
 
-
 .btn-gal {
     background: #f7f716;
     opacity: 0.8;
@@ -420,7 +349,6 @@ h1 {
     border-radius: 50%;  
     transition: opacity 0.5s;
 }
-
 
 .btn-gal:hover {
     opacity: 1;
@@ -434,17 +362,6 @@ h1 {
     text-align: center;
     padding-top: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .team {
     width: 100%;
@@ -470,7 +387,6 @@ h1 {
     font-family: 'Slabo 27px', serif;
     margin-bottom: 100px;
 }
-
 
 .team-block {
     margin-bottom: 50px;
@@ -505,7 +421,6 @@ h1 {
     background-position: 50% 50%;
     background-size: cover;
 }
-
 
 .team-block img{
     border: 1px solid transparent;
@@ -585,15 +500,6 @@ h1 {
     display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
 .contact {
     width: 100%;
     margin: 0 auto;
@@ -607,7 +513,6 @@ h1 {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
 
 .contact h1 {
@@ -680,7 +585,6 @@ h1 {
     color: #949490;
 }
 
-
 .contact-right {
     width: 50%;
     height: auto;
@@ -707,15 +611,6 @@ h1 {
 #button:hover {
     background-color: #fafa03;
 }
-
-
-
-
-
-
-
-
-
 
 footer {
     width: 100%;
@@ -796,20 +691,10 @@ footer {
     color: #ffffff;
 }
 
-
-
-
-
 @media screen and (max-width: 1300px) {
     .total-head {
         width: 100%;
     }
-    
-    
-    
-    
-    
-    
     
     .advantages {
         width: 70%;
@@ -824,25 +709,6 @@ footer {
     .advantage:not(:last-child) {
         margin-right: 50px;
     }
-
-    
-    
-
-    
-    
-
-
-        
-
-
-
-
-
-
-
-
-
-
 
     .gallery-wrapper {
         width: 50%;
@@ -867,14 +733,6 @@ footer {
         font-size: 160px;
     }
     
-
-
-
-
-
-
-
-
     .recommendation-wrapper {
         display: flex;
         flex-direction: column; 
@@ -888,16 +746,6 @@ footer {
         height: 230px;
     }
 
-
-
-
-
-
-
-
-
-
-
     .team-wrapper {
         display: flex;
         flex-direction: row;
@@ -905,19 +753,7 @@ footer {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     .contact-wrapper {
         width: 90%;
     }
@@ -947,17 +783,6 @@ footer {
         vertical-align: middle;
         height: 198px;
     }
-
-
-
-    
-
-
-    
-
-
-    
-    
     
     .footer-wrapper {
         width: 100%;
@@ -967,10 +792,6 @@ footer {
         margin: 10px 3px;
     }
 }
-
-
-
-
 
 @media screen and (max-width: 1000px){
     .front {
@@ -1019,10 +840,6 @@ footer {
         margin-right: 10px;
     }
 
-    /* .menu a:not(:last-child){
-        display: none;
-        
-    } */
     .menu {
         transition: top 0.5s;
         position: absolute;
@@ -1062,52 +879,6 @@ footer {
         margin-left: auto;
     }
 
-    
-
-
-
-
-
-/* 
-.menu a.icon-menu {
-    float: right;
-    margin-top: -17px;
-    display: block;
-    color: #ffffff;
-    font-size: 25px;
-}
-nav {
-    width: 100%;
-}
-.menu.responsive {
-    position: relative;
-    top: 50px;
-    left: -200px;
-}
-header .menu.responsive {
-    height: 340px;
-}
-.menu.responsive a.icon-menu {
-    position: absolute;
-    top: -50px;
-    right: -200px;
-}
-.menu.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    
-} */
-
-
-
-    
-
-    
-
-
-
-
     .advantages {
         padding-top: 100px;
     }
@@ -1116,19 +887,6 @@ header .menu.responsive {
         width: 100px;
     }
 
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
     .workout {
         padding-top: 100px;
     }
@@ -1139,7 +897,6 @@ header .menu.responsive {
     
     .gal {
         display: flex;
-        /* justify-content: space-around; */
         flex-direction: row;
         align-items: center;
     }
@@ -1157,16 +914,6 @@ header .menu.responsive {
     .icon-gal::before {
         font-size: 120px;
     }
-
-
-
-
-
-
-
-
-
-
 
     .empty {
         display: none;
@@ -1207,9 +954,7 @@ header .menu.responsive {
         min-width: 200px;
         height: auto;
         order: 1;
-        /* align-self: center; */
     } 
-
 
     .img-block img {
         border-radius: 50%; 
@@ -1228,16 +973,6 @@ header .menu.responsive {
         flex-direction: row;
         justify-content: space-around;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     .team {
         padding-top: 100px;
@@ -1266,14 +1001,6 @@ header .menu.responsive {
         width: 300px;
         height: 300px;
     }
-
-
-
-
-
-
-
-
 
     .contact {
         padding-top: 100px;
@@ -1308,17 +1035,6 @@ header .menu.responsive {
         vertical-align: middle;
     }
 
-
-
-    
-    
-    
-
-
-
-
-    
-    
     .footer-wrapper {
         width: 100%;
     }
@@ -1348,14 +1064,6 @@ header .menu.responsive {
     .advantage:not(:last-child) {
         margin-right: 0;
     }
-    
-    
-
-
-    
-    
-    
-    
     
     .workout {
         width: 100%;
@@ -1400,17 +1108,6 @@ header .menu.responsive {
         font-size: 180px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     .team-block .img-team,
     .team-block .img-team-1,
     .team-block .img-team-2 {
@@ -1418,17 +1115,6 @@ header .menu.responsive {
         width: 250px;
         height: 250px;
     }
-
-
-
-
-
-
-
-
-
-
-
 
     .contact-wrapper {
         width: 100%;
@@ -1463,16 +1149,6 @@ header .menu.responsive {
         margin-bottom: 25px;
      }
 
-
-
-
-    
-    
-    
-    
-    
-    
-    
     .footer-wrapper {
         display: flex;
         align-items: center;
@@ -1482,14 +1158,10 @@ header .menu.responsive {
 }
 
 
-
-
 @media screen and (max-width: 550px) {
      h1 {
          margin-top: 30px;
      }
-
-
 
     header {
         width: 100%;
@@ -1541,29 +1213,9 @@ header .menu.responsive {
         margin-left: 0;
     }
 
-    
-
-
-
-
-
-
-
-
-
-
     .advantage img {
         width: 170px;
     }
-
-
-
-
-
-
-
-
-
 
     h1{
         font-size: 30px;
