@@ -9,7 +9,7 @@ header {
     height: 700px;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
-    background: url(../asset/54.jpg) no-repeat #000 85% 30%;
+    background: url(../assets/head-7.jpg) no-repeat #000 50% 45%;
     background-size: cover;
     position: relative;
 }
@@ -18,15 +18,16 @@ header {
     display: flex;
     height: auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
     position: absolute;
     z-index: 1;
 }
 
 .header-logo {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 28px;
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Marck Script', cursive;
+    font-size: 34px;
     align-items: center;
     color: #f7f716;
     text-decoration: none;
@@ -40,7 +41,7 @@ header {
 .menu a {
     text-decoration: none;
     padding-left: 30px;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
 }
 a:hover {
@@ -62,28 +63,31 @@ a:hover {
 .meet-1 {
     font-family: 'Slabo 27px', serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 .meet-2 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     letter-spacing: -2px;
 }
 
 .btn-head {
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Montserrat', sans-serif;
     width: 200px;
     height: 70px;
     border: none;
     background: #c7c05b;
     color: #000;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
     border-radius: 8px;
-    letter-spacing: -1px;  
+    /* letter-spacing: -1px;   */
     transition: background-color 0.5s;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .btn-head:hover {
@@ -97,7 +101,7 @@ a:hover {
     right: 0;
     bottom: 0;
     background: black;
-    opacity: 0.5; 
+    opacity: 0.6; 
     z-index: 0; 
 }
 
@@ -143,27 +147,65 @@ h1 {
 
 .advantage {
     width: 250px;
-    text-align: center;    
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .advantage:not(:last-child) {
     margin-right: 150px;
 }
 
-.advantages h2 {
-    margin-bottom: 25px;
+.text-mean {
+    height: 200px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
 .advantage p {
     font-style: normal;
     letter-spacing: 0.5px;
-    margin-bottom: 0;
+    margin: 25px 0;
+}
+
+.icon-mean-1, 
+.icon-mean-2,
+.icon-mean-3 {
+    width: 200px;
+    height: 200px;
 }
 
 .advantage img {
-    margin-bottom: 30px;
-    width: 170px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+.btn-advantages {
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: #c7c05b;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btn-advantages:hover {
+    background-color: #fafa03;
+}
+
 
 .workout {
     width: 100%;
@@ -184,17 +226,18 @@ h1 {
 }
 
 .workout p {
-    font-style: italic;
     font-family: 'Slabo 27px', serif;
+    font-style: normal;
 }
 
 .workout>p {
     margin-bottom: 100px;
+    font-style: italic;
 }
 
-.workout p {
+/* .workout p {
     font-style: normal;
-}
+} */
 
 .gall {
     display: flex;
@@ -208,7 +251,7 @@ h1 {
 }
 
 .gallery h2 {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .icon-gal {
@@ -218,7 +261,8 @@ h1 {
 }
 
 .icon-gal img {
-    width: 100%;
+    width: 338px;
+    height: 225px;
 }
 
 .icon-gal::after {
@@ -284,44 +328,71 @@ h1 {
 .rec-block-left p {
     font-style: normal;
     text-align: right;
+    margin-bottom: 15px;
 }
 
 .rec-block-right p {
     font-style: normal;
     text-align: left;
+    margin-bottom: 15px;
 }
 
 .rec-block-left h2,
 .rec-block-right h2 {
     margin-bottom: 30px;
+    text-overflow: unset;
 }
 
+.btn-rec {
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: #c7c05b;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btn-rec:hover {
+    background-color: #fafa03;
+}
 .recommendation-wrapper {
-     display: flex;
+    display: flex;
     flex-direction: column; 
     align-items: center;
     margin: 0 auto;
     width: 1100px;
 }
 
-.rec-block-left {
+.rec-block-left,
+.rec-block-right {
     width: auto; 
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .img-block{
-    width: 33%;
-    height: auto;
+    width: 230px;
+    height: 230px;
     position: relative;
 } 
 
 .img-block img {
     border-radius: 50%; 
-    width: 75%;  
-    height: 75%;
+    width: 230px;  
+    height: 230px;
     z-index: 3;
+    object-fit: cover;
 } 
 
 .empty {
@@ -332,35 +403,7 @@ h1 {
 .block {
     width: 33%;
     height: auto;
-}
-.rec-block-right {
-    width: auto; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.btn-gal {
-    background: #f7f716;
-    opacity: 0.8;
-    width: 163px;
-    height: 154px;
-    cursor: pointer;
-    border-radius: 50%;  
-    transition: opacity 0.5s;
-}
-
-.btn-gal:hover {
-    opacity: 1;
-}
-
-.btn-gal h4 {
-    color: #60605d;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -1px;
-    text-align: center;
-    padding-top: 60px;
+    margin-bottom: 10px;
 }
 
 .team {
@@ -402,23 +445,23 @@ h1 {
 }
 
 .team-block .img-team {
-    background-image: url("../asset/lia.jpg");
+    background-image: url("../assets/team-1.jpg");
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 40% 50%;
     background-size: cover;
 }
 
 .team-block .img-team-1 {
-    background-image: url("../asset/rinat.jpg");
+    background-image: url("../assets/team-2.jpg");
     background-repeat: no-repeat;
-    background-position: 0% 100%;
+    background-position: 75% 50%;
     background-size: cover;
 }
 
 .team-block .img-team-2 {
-    background-image: url("../asset/dil.jpg");
+    background-image: url("../assets/team-3.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 100% 50%;
     background-size: cover;
 }
 
@@ -509,7 +552,7 @@ h1 {
     background: #ffffff;
     color: #000;
     text-align: center;
-    background: url("../asset/contact.jpg") no-repeat center;
+    background: url("../assets/gal.jpg") no-repeat 50% 70%;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -598,14 +641,15 @@ h1 {
 }
 
 #button {
-    width: 200px;
+    width: 220px;
     height: 70px;
     background: #c7c05b;
     color: #000;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.5s;
     text-align: center;
+    opacity: 0.9;
 }
 
 #button:hover {
@@ -693,7 +737,8 @@ footer {
 
 @media screen and (max-width: 1300px) {
     .total-head {
-        width: 100%;
+        width: 95%;
+        margin-left: 30px;
     }
     
     .advantages {
@@ -721,7 +766,7 @@ footer {
 
     .icon-gal img {
         width: 280px;
-        height: auto;
+        height: 187px;
     }
 
     .icon-gal::after {
@@ -794,23 +839,28 @@ footer {
 }
 
 @media screen and (max-width: 1000px){
+    .total-head {
+        width: 100%;
+        margin-left: 0;
+    }
+
     .front {
         width: 100%;
     }
 
     .icon-menu {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Kaushan Script', cursive;
         font-weight: 600;
         text-transform: uppercase;
         background-color: #c7c05b;
-        width: 70px;
+        width: 60px;
         height: auto;
         display: inline-block;
         border-radius: 5px;
         margin-right: 25px;
         vertical-align: middle;
         padding: 0 10px;
-        font-size: 18px;
+        font-size: 14px;
         color: #333;
         text-decoration: none;
     }
@@ -884,15 +934,17 @@ footer {
     }
 
     .advantage img {
-        width: 100px;
+        width: 170px;
+        height: 170px;
     }
 
     .workout {
         padding-top: 100px;
+        width: 90%;
     }
 
     .gallery-wrapper {
-        width: 30%;
+        width: 50%;
     }
     
     .gal {
@@ -903,7 +955,7 @@ footer {
     
     .icon-gal img {
         width: 200px;
-        height: auto;
+        height: 134px;
     }
 
     .icon-gal::after {
@@ -919,7 +971,7 @@ footer {
         display: none;
     }
     .recommendation {
-        width: 100%;
+        width: 90%;
         padding-top: 100px;
     }
 
@@ -1000,6 +1052,7 @@ footer {
         border-radius: 50%;
         width: 300px;
         height: 300px;
+        
     }
 
     .contact {
@@ -1038,6 +1091,10 @@ footer {
     .footer-wrapper {
         width: 100%;
     }
+
+    .open {
+        top: 27px;
+    }
 }
 
 
@@ -1049,6 +1106,10 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+
+    .advantages p {
+        margin-bottom: 10px;
+    }
     
     .advantages-wrapper {
         display: flex;
@@ -1059,14 +1120,26 @@ footer {
 
     .advantage {
         width: 70%;
+        margin: 20px;
     }
 
     .advantage:not(:last-child) {
         margin-right: 0;
     }
+
+    .text-mean {
+        height: auto;
+    }
+
+    .icon-mean-1,
+    .icon-mean-2,
+    .icon-mean-3 {
+        margin: 30px 0;
+        height: 150px;
+    }
     
     .workout {
-        width: 100%;
+        width: 90%;
    
     }
 
@@ -1089,7 +1162,7 @@ footer {
 
     .icon-gal img {
         width: 300px;
-        height: auto;
+        height: 200px;
         position: relative;
     }
 
@@ -1114,6 +1187,7 @@ footer {
         border-radius: 50%;
         width: 250px;
         height: 250px;
+        margin: 20px auto;
     }
 
     .contact-wrapper {
@@ -1154,6 +1228,10 @@ footer {
         align-items: center;
         flex-direction: column;
         width: 100%;
+    }
+
+    .open {
+        top: 25px;
     }
 }
 
@@ -1226,7 +1304,15 @@ footer {
     .rec-block-right {
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
+        /* margin: 130px 0; */
     }
+
+    .rec-block-left h2,
+    .rec-block-right h2{
+        word-wrap: break-word;
+    }
+
     .img-block img {
         margin-bottom: 20px;
         width: 170px;
@@ -1238,6 +1324,12 @@ footer {
         text-align: center;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+    .open {
+        top: 50px;
+    }
 }
 
 
